@@ -1,4 +1,2 @@
-const helloPlace = (place: string): string => {
-    return `Hello ${place}!`;
-  }
-  document.write(helloPlace('World'));
+const typescriptMessageDiv = document.getElementById('typescriptMessage');
+typescriptMessageDiv.innerHTML = '<h3>Welcome, you are good to go! :-)</h3>';
