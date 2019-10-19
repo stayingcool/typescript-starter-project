@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "dom",
+            "es7"
+         ],
+         "outDir": "./build/",
+         "sourceMap": true,
+         "module": "es6",
+         "target": "es6",
+    },
+    "include": [
+        "src/**/*"
+      ],
+      "exclude": [
+        "node_modules"
+      ]
+}
